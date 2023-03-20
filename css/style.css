@@ -176,9 +176,9 @@ body {
 /*navbar*/
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   algin-items: center;
-  pading: 8rem 10%;
+  pading: 1.4rem 7%;
   background-color: #ffffff;
   position: fixed;
   top: 0;
