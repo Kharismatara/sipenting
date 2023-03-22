@@ -176,7 +176,7 @@ body {
 /*navbar*/
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   algin-items: center;
   pading: 1.4rem 7%;
   background-color: #ffffff;
@@ -187,13 +187,17 @@ body {
   z-index: 9999;
   border-bottom: 1px solid var(--primary);
 }
-
-.navbar-logo {
+.logo-nav {
+  display: inline-block;
+  align-items: center;
+  padding: 0rem 1rem;
+}
+.logo-nav.navbar-logo {
   font-size: 2rem;
   font-weight: 700;
   color: var(--primary);
 }
-.navbar-logo span {
+.logo-nav .navbar-logo span {
   color: #f8d95f;
   font-style: italic;
 }
@@ -219,22 +223,22 @@ body {
   transform: scaleX(0.5);
 }
 .navbar-extra .masuk {
-  margin: 0rem 0.5rem;
+  display: inline-block;
   border: 0;
   line-height: 2.5;
-  padding: 0 20px;
+  padding: 0rem 1rem;
   font-size: 1rem;
   font-weight: 700;
   text-align: center;
   color: var(--yellow);
   background-color: rgba(0, 0, 0, 0);
-  border: 2px solid var(--yellow);
+  border: 1px solid var(--yellow);
 }
 .navbar-extra .daftar {
-  margin: 0.5rem 0.5rem;
+  display: inline-block;
   border: 0;
   line-height: 2.5;
-  padding: 0 20px;
+  padding: 0rem 1rem;
   font-size: 1rem;
   text-align: center;
   color: #ffffff;
@@ -250,7 +254,7 @@ body {
   border: 1px solid var(--primary);
 }
 
-#menu {
+.navbar-extra #menu {
   color: var(--primary);
   margin: 0.5rem 0.5rem;
   display: none;
@@ -263,10 +267,13 @@ body {
 }
 .row-label {
   padding: 0.5rem 7%;
+  flex: 1 1 45rem;
 }
-
+.row .row-img {
+  flex: 1 1 50rem;
+}
 .row-img img {
-  width: 600px;
+  width: 100%;
   padding: 1rem 7%;
 }
 .label-hero h1 {
@@ -309,7 +316,8 @@ body {
   html {
     font-size: 62.5%;
   }
-  #menu {
+
+  .navbar-extra #menu {
     display: inline-block;
   }
   .navbar .navbar-nav {
@@ -338,16 +346,18 @@ body {
   .navbar .navbar-nav.active {
     right: 0;
   }
+  /*hero */
+  .row {
+    max-height: 200vh;
+    display: block;
+  }
 }
 /*hp*/
 @media (max-width: 450) {
   html {
     font-size: 55%;
   }
-  #menu {
-    display: inline-block;
-  }
   .navbar-extra {
-    display: none;
+    display: inline-block;
   }
 }
