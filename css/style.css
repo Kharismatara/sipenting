@@ -16,6 +16,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #ffffff;
   color: var(--font);
+  max-height: 2000px;
 }
 
 /*navbar*/
@@ -98,7 +99,8 @@ body {
   color: var(--primary);
   margin: 0.5rem 0.5rem;
   display: none;
-}
+} /*stastistika*/
+
 /*media query*/
 /*laptop*/
 @media (max-width: 1366px) {
@@ -171,6 +173,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #ffffff;
   color: var(--font);
+  max-height: 2000vh;
 }
 
 /*navbar*/
@@ -303,7 +306,44 @@ body {
   background-color: var(--primary);
   border-radius: 32px;
 }
+/*stastistik*/
+.label-stastistik {
+  padding: 8rem 7% 1.4rem;
+  text-align: center;
+}
+.label-stastistik h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary);
+}
+.label-stastistik h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--font);
+}
+.tabel-stastistik {
+  margin-top: 1rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.sta1 {
+  border: 1px solid var(--primary);
+  display: inline-block;
+  margin-right: 1rem;
+  padding: 0.5rem 7%;
+  border-radius: 20px;
+  color: var(--font);
+}
+.sta1 img {
+  width: 3rem;
+  height: 3rem;
+}
 
+.ket {
+  margin: 10px;
+  font-weight: 300;
+}
 /*media query*/
 /*laptop*/
 @media (max-width: 1366px) {
