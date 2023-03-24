@@ -267,18 +267,17 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
+
 }
 .row-label {
-  padding: 0.5rem 7%;
+  padding: 0.5rem 10%;
 }
 .row-img {
   display: inline-block;
-  padding: 0.5rem 0.5rem;
+  padding: 2rem 0.5rem;
 }
 .row-img img {
-  width: 90%;
-
-  padding: 0.5rem;
+  width: 70%;
   object-fit: cover;
   object-position: center;
 }
@@ -333,7 +332,7 @@ body {
 .sta1 {
   border: 1px solid var(--primary);
   display: inline-block;
-  margin-right: 1rem;
+   margin-right: 1rem; 
   padding: 0.5rem 7%;
   border-radius: 20px;
   color: var(--font);
@@ -347,6 +346,97 @@ body {
   margin: 10px;
   font-weight: 300;
 }
+.sta1 :before{
+sition: absolute;
+width:90%;
+height: 100%;
+background-image:inherit;
+background-size: cover;
+margin:3rem;
+transition:all 1s;
+}
+.sta1:hover{
+  transform:scale(1.1);
+}
+/*layanankami*/
+/* .layanankami{
+  margin-top:8rem;
+  padding:1.4rem 7%;
+  background-color:#DCFFEA;
+}
+ .label-layanankami{
+  margin-top:2rem;
+  text-align: center;
+  color: var(--font);
+  font-weight: 600;
+  font-size:1rem;
+}
+.container-lk{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+ 
+}
+.img-lk img {
+  width: 60%;
+  
+  padding-right:10rem 1rem; 
+}
+.ketlayanankami{
+ padding:6rem 1rem;
+ 
+}
+.edukasi{
+  text-align:center;
+}
+.edukasilayanankami{
+  text-align:left;
+} */
+/*layanan kami*/
+.layanankami{
+  margin-top:8rem;
+  padding:1.4rem 7%;
+  background-color:#DCFFEA;
+}
+.label-layanankami{
+  margin-top:2rem;
+  text-align: center;
+  color: var(--font);
+  font-weight: 600;
+  font-size:1rem;
+}
+.row-layanan{
+  display: flex;
+  margin-top: 3rem;
+  text-align: center;
+  
+
+}
+.card-layanan{
+  text-align: center;
+
+}
+.card-layanan img{
+ border-radius: 40%;
+  width:50%;
+  height:auto;
+  border: 2px solid var(--primary);
+}
+.card-title-layanan{
+  margin-top:1.5rem;
+}
+.card-layanan-ket{
+  margin-top:1rem auto 0.5remm;
+  padding:0.5rem 8%;
+  text-align: left;
+  
+
+}
+
+
+
+
+
 /*media query*/
 /*laptop*/
 @media (max-width: 1366px) {
@@ -399,10 +489,21 @@ body {
   .row {
     display: block;
   }
+  .row-img{
+    width: 100%;
+    text-align: center;
+    margin: auto 1rem;
+    justify-content:center;
+    padding:2rem 2%;
+  }
 
   .row-label {
     padding: 8rem 5%;
     text-align: center;
+  }
+  /*stastistik*/
+  .stastistik{
+    margin-top:0.5rem;
   }
   .tabel-stastistik {
     display: grid;
@@ -412,6 +513,34 @@ body {
 .sta1{
   padding:1rem 5rem;
   margin-bottom:1rem;
+}
+.sta1 :before{
+  sition: absolute;
+  width:90%;
+  height: 100%;
+  background-image:inherit;
+  background-size: cover;
+  margin:3rem;
+  transition:all 1s;
+  }
+  .sta1:hover{
+    transform:scale(1.1);
+  }
+  /*layanan kami */
+  /* .container-lk {
+    display: grid;
+    place-items: center;    
+} */
+/*layanankami*/
+.row-layanan{
+  display: block;
+  place-items: center;
+}
+.card-layanan{
+  padding:1.5rem 10%;
+}
+.card-layanan-ket{
+  text-align:center;
 }
 /*hp*/
 @media (max-width: 450) {
