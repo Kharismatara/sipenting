@@ -270,15 +270,12 @@ body {
 
 }
 .row-label {
-  padding: 0.5rem 10%;
+  padding: 1rem 7%;
 }
-.row-img {
-  display: inline-block;
-  padding: 2rem 0.5rem;
-}
+
 .row-img img {
-  width: 70%;
-  object-fit: cover;
+  width: 500px;
+   object-fit: cover;
   object-position: center;
 }
 .label-hero h1 {
@@ -432,6 +429,118 @@ transition:all 1s;
   
 
 }
+/*artikel */
+.artikel{
+  margin-top:8rem;
+  padding:1.4rem 7%;
+}
+.label-artikel{
+  margin-top:2rem;
+  text-align: center;
+  color: var(--font);
+  font-weight: 600;
+  font-size:1rem;
+}
+.row-artikel{
+  display: flex;
+  margin-top:2rem;
+  
+  
+}
+.card-artikel{
+  justify-content: space-between;
+   margin-top:1rem;
+
+ }
+.imgar{
+  width:90%;
+  text-align: center;
+  border-radius:16px;
+ 
+}
+.titlear{
+  margin-top:1rem;
+  color:var(--primary);
+  font-weight: 600;
+  font-size:18px;
+}
+.judular{
+  margin-top:1rem;
+  color:var(--font);
+  font-weight: 600;
+}
+.ketar{
+  padding: auto 2rem;
+  color:var(--font);
+}
+.sly{
+margin-top: 3rem;
+padding: 0.5rem 55%;
+
+  color:var(--primary);
+}
+/*footer*/
+.footer{
+  margin-top: 8rem;
+  background-color:#1B443B;
+  color:white;
+}
+.footersipenting{
+  display:flex;
+  padding:3rem 7%;
+  justify-content: space-between;
+  
+ 
+  
+}
+
+.label-footer .sipen {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary);
+  font-size:24px;
+}
+.label-footer span {
+  color: #f8d95f;
+  font-style: italic;
+}
+.label-footer h6 {
+  color: white;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+}
+.icons-footer {
+  margin-top: 1rem;
+}
+.icons-footer .iconsf{
+color: white;
+   
+}
+.layanakami-footer{
+  font-size:24px;
+  font-weight: 700;
+}
+.layanakami-footer .lkf{
+display:block;
+font-size:14px;
+color: white;
+font-weight:300;
+}
+.kerjasama-footer{
+  font-size:24px;
+  font-weight: 700;
+  margin-bottom:2rem;
+}
+.kerjasama-footer .kf{
+  display:block;
+font-size:14px;
+color: white;
+font-weight:300;
+}
+
+
+
 
 
 
