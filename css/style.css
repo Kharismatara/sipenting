@@ -675,6 +675,9 @@ margin-top:10px;
 .card-layanan-ket{
   text-align:center;
 }
+.row-kontak{
+  flex-wrap:wrap;
+}
 /*hp*/
 @media (max-width: 450) {
   html {
