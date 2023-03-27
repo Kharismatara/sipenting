@@ -392,7 +392,7 @@ transition:all 1s;
 /*layanan kami*/
 .layanankami{
   margin-top:8rem;
-  padding:1.4rem 7%;
+  padding:5rem 7%;
   background-color:#DCFFEA;
 }
 .label-layanankami{
@@ -433,7 +433,7 @@ transition:all 1s;
 /*artikel */
 /*kontak*/
 .label-kontak{
-  margin-top:4rem;
+  padding:5rem 7%;
   color: var(--font);
   text-align: center;
 }
@@ -442,6 +442,7 @@ transition:all 1s;
   font-size: 24px;
 }
 .label-kontak p{
+
  font-size:20px;
  font-weight:500;
  color:var(--primary);
