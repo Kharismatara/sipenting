@@ -434,20 +434,21 @@ transition:all 1s;
   font-size:1.4rem;
   color: var(--font);
   text-align: center;
-  padding:3rem 7%;
+ margin-top:3rem;
 }
-.row-pr{
+/* .row-pr{
   display: grid;
-  grid-template-rows: repeat(2, 1fr); /* 2 baris yang sama tingginya */
-  grid-template-columns: repeat(3, 1fr); /* 3 kolom yang sama lebarnya */
-  gap: 2rem;
-
-  justify-items: center; /* pusatkan item secara horizontal */
-  align-items: center;
+  grid-template-rows: repeat(2, 1fr); 
+  /* 2 baris yang sama tingginya */
+  /* grid-template-columns: repeat(3, 1fr);  */
+  /* 3 kolom yang sama lebarnya */
+  /* gap: 20px;
+  justify-items: center;  */
+  /* pusatkan item secara horizontal */
+  /* align-items: center; */
   /* pusatkan item secara vertikal */
-
-}
-#icons-pr{
+}*/
+/* #icons-pr{
   color:yellow;
 }
 .card-pr{
@@ -466,12 +467,11 @@ transition:all 1s;
   border-radius:50%;
   color:white;
  
-}
-
+} */
 /*artikel */
 .artikel{
   margin-top:8rem;
-  padding:1.4rem 7%;
+  padding:3rem 7%;
 }
 .label-artikel{
   margin-top:2rem;
@@ -487,6 +487,7 @@ transition:all 1s;
   
 }
 .card-artikel{
+  margin-right:2rem;
   justify-content: space-between;
    margin-top:1rem;
 
@@ -518,6 +519,48 @@ padding: 0.5rem 55%;
 
   color:var(--primary);
 }
+/*kontak*/
+.label-kontak{
+  margin-top:4rem;
+  color: var(--font);
+  text-align: center;
+}
+.kontak-title{
+  font-weight: 600;
+  font-size: 24px;
+}
+.label-kontak p{
+ font-size:20px;
+ font-weight:500;
+ color:var(--primary);
+ margin-top:1rem;
+ text-align:center;
+ margin-bottom:3rem;
+}
+
+.row-kontak{
+  display:flex;
+}
+ .map{
+  flex: 1 1 45rem;
+  width:100%;
+  object-fit: cover;
+}
+.kontak .row-kontak form{
+  flex:1 1 45rem;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.kontak .row-kontak form .input-kontak{
+  display:flex;
+  align-items:center;
+  margin-top: 2rem;
+  border:2px solid var(--primary);
+  padding-left: 2rem;
+
+}
+
 /*footer*/
 .footer{
   margin-top: 8rem;
