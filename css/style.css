@@ -705,6 +705,17 @@ margin-top:10px;
 .row-kontak{
   flex-wrap:wrap;
 }
+.row-artikel{
+  display:block;
+  text-align:center;
+}
+.footersipenting{
+  display:block;
+  
+}
+.akhirfooter{
+  display:block;
+}
 /*hp*/
 @media (max-width: 450) {
   html {
@@ -714,18 +725,3 @@ margin-top:10px;
     display: inline-block;
   }
 }
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-sipenting/style.css at main · Kharismatara/sipenting
