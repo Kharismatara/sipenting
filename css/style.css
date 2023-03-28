@@ -395,6 +395,11 @@ transition:all 1s;
     height:50px;
     border:1px solid;
   }
+  .card-artikel h4{
+color:var(--primary);
+width:300px;
+text-align:end;
+  }
   /*kontak*/
   .label-kontak{
     padding:5rem 7%;
