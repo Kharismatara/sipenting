@@ -357,6 +357,9 @@ transition:all 1s;
 
 /*artikel */
 /*artikel */
+
+/*artikel */
+/*artikel */
 .label-artikel{
   padding: 3rem 5%;
     color: var(--font);
@@ -367,16 +370,18 @@ transition:all 1s;
   }
   .row-artikel{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     max-width: 100%;
     align-items: stretch;
     margin:3rem 7%;
+   
   }
   
   .card-artikel img{
     align-items: center;
     width:300px;
     height:180px
+    border-radius: 10px;
   }
   .card-artikel .title{
     font-size:20px;
@@ -388,15 +393,16 @@ transition:all 1s;
     width:300px;
     height:50px;
   }
-  .card-artikel .ket{
+  .card-artikel .ket-artikel{
     font-size:14px;
     color:var(--font);
     width:300px;
     height:50px;
-    border:1px solid;
+  
   }
   .card-artikel h4{
 color:var(--primary);
+margin-top:30px;
 width:300px;
 text-align:end;
   }
@@ -587,6 +593,11 @@ margin-top:10px;
   font-size:14px;
   border-top: 1px solid #ffffff ;
   padding:1.4rem 7%;
+}
+#name{
+  display: inline-blockl;
+  padding: 5rem 2rem;
+  border:1 solid var(--primary);
 }
 
 
