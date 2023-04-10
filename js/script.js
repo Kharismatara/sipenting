@@ -12,3 +12,12 @@ document.addEventListener("click", function (e) {
     navbarNav.classList.remove("active");
   }
 });
+
+const form = document.querySelector("form");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault(); // menghentikan perilaku default form
+  alert("Data sudah dikirim!");
+  // menampilkan alert setelah form dikirim
+  form.reset();
+});
